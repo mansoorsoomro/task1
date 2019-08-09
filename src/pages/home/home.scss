@@ -1,3 +1,80 @@
 page-home {
+	.pic_css{
+	    height: 85px;
+	    margin-left: 15px;
+	    border-radius: 10px;
+	}
+	.adjust_left{
+		margin-left: -5px;
+	}
+	.text_detail{
+		color: gray;
+    	font-size: 10px;
+    	margin-bottom: 5px;
+	}
+	.pic_like{
+		height: 30px;
+	    border-radius: 30px;
+	    width: 30px;
+	    display: inline-block;
+	}
+	.pic_like2{
+		height: 29px;
+	    border-radius: 30px;
+	    width: 28px;
+	    position: absolute;
+	    display: inline-block;
+	    margin-left: -12px;
+	    z-index: -1;
+	}
+	.text_det{
+		font-weight: bold; 
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.like_text{
+		font-size: 11px;
+		color: gray;
+	}
+	.space{
+		height: 30px;
+	}
+	.comment_name{
+	    font-weight: bold;
+	}
+	.Comment_date{
+		font-size: 10px;
+		color: gray;
+	}
+	.Comment{
+		margin-top: -15px;
+	    font-size: 12px;
+	    margin-left: 12px;
+	}
+	.item-md{
+		padding-left: 0 !important;
+	}
+	.Comment_text{
+		font-weight: bold; 
+		margin-top: 0;
+		margin-bottom: 5px;
+		font-size: 16px;
+	}
+	.item-md ion-avatar ion-img, .item-md ion-avatar img{
+		width: 36px !important;
+    	height: 36px !important;
+	}
+	.fab-md{
+		background-color: #ff48b8 !important;
+	}
+	.comment_input{
 
+	}
+	.send_button{
+		height: 35px;
+	    width: 36px;
+	    position: absolute;
+	    right: 5px;
+
+	}
 }
