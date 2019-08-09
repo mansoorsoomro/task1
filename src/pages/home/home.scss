@@ -1,15 +1,16 @@
 page-home {
 	.pic_css{
-	    height: 85px;
+	    height: 80px;
 	    margin-left: 15px;
 	    border-radius: 10px;
+	    margin-top: 10px;
 	}
 	.adjust_left{
 		margin-left: -5px;
 	}
 	.text_detail{
 		color: gray;
-    	font-size: 10px;
+    	font-size: 9px;
     	margin-bottom: 5px;
 	}
 	.pic_like{
@@ -17,6 +18,7 @@ page-home {
 	    border-radius: 30px;
 	    width: 30px;
 	    display: inline-block;
+	    border: solid 1px white;
 	}
 	.pic_like2{
 		height: 29px;
@@ -26,18 +28,19 @@ page-home {
 	    display: inline-block;
 	    margin-left: -12px;
 	    z-index: -1;
+	    border: solid 1px white;
 	}
 	.text_det{
 		font-weight: bold; 
 		margin-top: 0;
-		margin-bottom: 0;
+		margin-bottom: 7px;
 	}
 	.like_text{
 		font-size: 11px;
 		color: gray;
 	}
 	.space{
-		height: 30px;
+		height: 15px;
 	}
 	.comment_name{
 	    font-weight: bold;
@@ -47,9 +50,9 @@ page-home {
 		color: gray;
 	}
 	.Comment{
-		margin-top: -15px;
+		margin-top: -18px;
 	    font-size: 12px;
-	    margin-left: 12px;
+	    margin-left: 1px;
 	}
 	.item-md{
 		padding-left: 0 !important;
@@ -57,24 +60,41 @@ page-home {
 	.Comment_text{
 		font-weight: bold; 
 		margin-top: 0;
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 		font-size: 16px;
 	}
 	.item-md ion-avatar ion-img, .item-md ion-avatar img{
-		width: 36px !important;
-    	height: 36px !important;
+		width: 34px !important;
+    	height: 34px !important;
 	}
 	.fab-md{
 		background-color: #ff48b8 !important;
 	}
 	.comment_input{
-
+		border: solid 1px #d2d0d0;
+    	border-radius: 30px;
+    	height: 42px
 	}
 	.send_button{
-		height: 35px;
-	    width: 36px;
+		height: 36px;
+	    width: 37px;
 	    position: absolute;
 	    right: 5px;
-
+	    border-radius: 20px;
+	    background-color: #ff6f6f;
+	    color: white;
+	    opacity: 0.5;
+	    margin-top: 2px;
+	}
+	.Comment_number{
+		font-size: 14px;
+    	color: #ff5a5a;
+	}
+	.avatar_class{
+		margin-right: 5px !important;
+    	margin-left: 1px !important; 
+	}
+	.list-md{
+		margin: -9px 0 16px !important;
 	}
 }

@@ -1,5 +1,7 @@
 
 <ion-content padding>
+   <ion-icon name="arrow-back"></ion-icon>
+   <hr>	
    <ion-grid>
 	  <ion-row>
 	    <ion-col col-8>
@@ -7,8 +9,8 @@
   			<p class="text_det">Khaled Albalooshi</p>
   			<ion-row>
   				<ion-col col-4 class="adjust_left">
-  					<img class="pic_like" src="../assets/imgs/pic.jpeg">
-  					<img class="pic_like2" src="../assets/imgs/pic2.jpg">
+  					<img class="pic_like" src="../assets/imgs/pic2.jpg">
+  					<img class="pic_like2" src="../assets/imgs/pic.jpeg">
   				</ion-col>
   				<ion-col col-8>
   					<p class="like_text">12 peoples like it</p>
@@ -21,10 +23,10 @@
 	  </ion-row>
 	</ion-grid><hr>
 	<div class="space"></div>
-  	<p class="Comment_text">Comments 15</p>
+  	<p class="Comment_text">Comments <span class="Comment_number">15</span></p>
   	<ion-list>
 	  <ion-item>
-	    <ion-avatar item-start>
+	    <ion-avatar class="avatar_class" item-start>
 	      <img src="../assets/imgs/pic2.jpg">
 	    </ion-avatar>
 	    <h3 class="Comment_name">Dua Lipa</h3>
@@ -34,7 +36,7 @@
 	<p text-left class="Comment">You r lokking soo handsome love you alots ! Thank You</p>
 	<ion-list>
 	  <ion-item>
-	    <ion-avatar item-start>
+	    <ion-avatar class="avatar_class" item-start>
 	      <img src="../assets/imgs/pic2.jpg">
 	    </ion-avatar>
 	    <h3 class="Comment_name">Dua Lipa</h3>
@@ -44,7 +46,7 @@
 	<p text-left class="Comment">You r lokking soo handsome love you alots ! Thank You</p>
 	<ion-list>
 	  <ion-item>
-	    <ion-avatar item-start>
+	    <ion-avatar class="avatar_class" item-start>
 	      <img src="../assets/imgs/pic2.jpg">
 	    </ion-avatar>
 	    <h3 class="Comment_name">Dua Lipa</h3>
@@ -53,19 +55,14 @@
 	</ion-list>
 	<p text-left class="Comment">You r lokking soo handsome love you alots ! Thank You</p>
 
-
-</ion-content>
-<ion-footer>
-  <ion-toolbar>
-  	<ion-grid>
+	<ion-grid>
 	  <ion-row>
 	    <ion-col col-10>
     		<ion-input class="comment_input" placeholder="Write a comment" type="text" value=""></ion-input>
 	    </ion-col>
 	    <ion-col col-2>
-    		<button ion-fab class="send_button"><ion-icon style="font-size: 18px;" name="arrow-round-up"></ion-icon></button>
+    		<button class="send_button"><ion-icon name="arrow-round-up"></ion-icon></button>
 	    </ion-col>
 	  </ion-row>
 	</ion-grid>
-  </ion-toolbar>
-</ion-footer>
+</ion-content>
